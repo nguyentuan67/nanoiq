@@ -1,0 +1,245 @@
+@media (min-width: 1024px) {
+
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .mySlides {
+        min-height: 500px;
+    }
+    
+    .mySlides-img {
+        height: 500px;
+    }
+}
+
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobi-tab {
+        display: none;
+    }
+
+    .header__container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        box-shadow: 5px 8px 13.92px 2.08px rgb(0 0 0 / 10%);
+    }
+
+    .app__container {
+        margin-top: 80px;
+    }
+
+    .header__logo-img {
+        position: absolute;
+        top: 4px;
+        height: 70px;
+    }
+
+    .mySlides__btn {
+        width: 60px;
+        margin: 0 15px;
+    }
+    
+    .mySlides__btn::before {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .mySlides__btn-icon {
+        font-size: 2.2rem;
+    }
+
+    .reviews {
+       overflow-x: hidden;
+    }
+
+    .review-grap {
+        padding: 30px 15px 20px;
+    }
+}
+
+/*  tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tab {
+        display: none;
+    }
+
+    .mySlides {
+        min-height: 330px;
+    }
+    
+    .mySlides-img {
+        height: 330px;
+    }
+
+    .tours-container .mm-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .reviews-container .mm-6 {
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobi {
+        display: none;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+    
+    .mySlides {
+        min-height: 280px;
+    }
+    .mySlides-img {
+        height: 280px;
+    }
+
+    .tours-container .c-6 {
+        flex: 0 0 42%;
+        max-width: 42%;
+    }
+
+    .tour__infor {
+        padding: 10px;
+    }
+
+    .tour__infor--title {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+    }
+
+    .tour__infor--decs {
+        line-height: 2rem;
+    }
+
+    .holiday {
+        margin-top: 60px;
+    }
+
+    .holiday__story {
+        width: 320px;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .holiday__sub-title {
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+    }
+
+    .holiday__item--img {
+        height: 140px;
+        margin-top: 20px;
+    }
+
+    .holiday__item--name {
+        padding-top: 14px;
+        padding-bottom: 6px;
+    }
+
+    .holiday__item--desc {
+        line-height: 2rem;
+    }
+
+    .reviews {
+        padding: 80px 0px;
+    }
+
+    .reviews__title {
+        font-size: 4.5rem;
+        line-height: 6rem;
+    }
+    
+    .reviews__sub-title {
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+    }
+
+    .reviews-container .c-12 {
+        flex: 0 0 88%;
+        max-width: 88%;
+    }
+
+    .footer {
+        padding: 40px 20px 20px;
+        margin-top: 50px;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+    
+    .footer__logo-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .footer__sub-title {
+        text-align: center;
+    }
+
+    .footer__heading {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .footer__address-item {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 610px) {
+    .mySlides {
+        min-height: 260px;
+    }
+    .mySlides-img {
+        height: 260px;
+    }
+}
+
+@media (min-width: 740px) {
+    .reviews-container .mm-6 {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .mySlides {
+        min-height: 230px;
+    }
+    .mySlides-img {
+        height: 230px;
+    }
+}
+
+@media (max-width: 450px) {
+    .mySlides {
+        min-height: 210px;
+    }
+    .mySlides-img {
+        height: 210px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mySlides {
+        min-height: 185px;
+    }
+    .mySlides-img {
+        height: 185px;
+    }
+}
