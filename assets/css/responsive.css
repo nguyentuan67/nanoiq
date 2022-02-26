@@ -209,14 +209,6 @@
     }
 }
 
-@media (min-width: 740px) {
-    .reviews-container .mm-6 {
-        flex: 0 0 45%;
-        max-width: 45%;
-    }
-
-}
-
 @media (max-width: 550px) {
     .mySlides {
         min-height: 230px;
