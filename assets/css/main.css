@@ -61,11 +61,7 @@
 }
 
 .header__logo-img {
-    position: absolute;
-    top: -28px;
-    left: 50%;
-    height: 100px;
-    transform: translateX(-30%);
+    width: 180px;
 }
 
 .header__navbar-list {
